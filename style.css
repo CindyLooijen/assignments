@@ -1,0 +1,101 @@
+.heading {
+                    display: block;
+                    background-color: pink;
+}
+
+.yes-no-buttons {
+                    display: block;
+                    margin: 0 auto;
+                    width: 125px;
+}
+
+.yesbutton {
+                    width: 50px;
+                    height: 35px;
+                    color: green;
+}
+
+.nobutton {
+                    margin-left: 15px;
+                    width: 50px;
+                    height: 35px;
+                    color: red;
+}
+
+h1 { 
+                    text-align: center;
+                    display: block;
+                    font-size: 40px;
+                    font-weight: bold;
+                    color: purple;
+                    font-family: 'Shift', sans-serif;
+}
+
+.firstline {
+                    font-size: 25px;
+}
+
+p  {
+                    display: block;
+                    text-align: center;
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: black;
+                    font-family: 'Shift', sans-serif;
+}
+
+img {
+	                display: block;
+	                margin: 0 auto;
+	                width: 30vw;
+}
+	   
+.TurnButton {
+                    width: 8vw;
+                    height: 7vh;
+                    margin-bottom: 15px;
+                    color: purple;
+}
+
+.GuessButton {
+                    width: 13vw;
+                    height: 7vh;
+                    margin-left: 3vw;
+                    margin-bottom: 15px;
+                    color: purple;
+}        
+
+.Turn-and-Guess {
+                    display: block;
+                    margin-right: auto;
+                    margin-left: auto;
+                    width: 25vw;
+}
+
+.NextButton {       width: 8vw;
+                    height: 7vh;
+                    margin-bottom: 15px;
+                    color: purple;
+}
+
+.PrevButton {
+                    width: 9vw;
+                    height: 7vh;
+                    margin-left: 3vw;
+                    margin-bottom: 15px;
+                    color: purple;
+}
+
+.Next-and-Prev {
+                    display: block;
+                    margin: 0 auto;
+                    margin-top: 5vh;
+                    width: 21vw;
+}
+
+
+
+
+
+
+

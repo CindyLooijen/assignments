@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+<link href="style.css" type=text/css rel="stylesheet">
+<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+</head>
+    <body>
+        <section>
+        <div class="heading">
+	        <h1>Would you like to play a game?</h1>
+	    <div class="yes-no-buttons">
+	        <button id = "yes-button" class="yesbutton" onclick=Play()>Yes</button> 
+	        <button id = "no-button" class="nobutton" onclick=Leave()>No</button>
+	    </div>
+	        <p class="firstline">Can you guess which side needs to be up?</p>
+	        <p>Start clicking the button until you think the right side is up...</p> 
+	        <p>Press the 'Is this the right way up?' button to check your answer</p>
+	        <p>If your answer is right, move to the next image</p>
+	    </div>
+	    </section> 
+        
+        <section>
+        <div class="Turn-and-Guess">
+            <button class="TurnButton" onclick="turnImage()">Turn Image</button> 
+	        <button class="GuessButton" onclick="Guess()">Is this the right way up?</button>
+	    </div>
+	    </section>
+	    
+	    <section>
+	    <div class="nav">
+	    <div class="container">
+	        <img id="image" src="http://corioblog.com/Mondrian.jpg">
+	    </div>
+	    </div>   
+        </section>
+        
+        <section>
+        <div class="Next-and-Prev">
+            <button class="NextButton" onclick="next()">Next Image</button>
+	        <button class="PrevButton" onclick="prev()">Previous Image</button>
+	    </div>
+        </section>
+        
+        
+	<script src="functions.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    </body>
+</html>
