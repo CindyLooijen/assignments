@@ -44,9 +44,17 @@ p  {
                     font-family: 'Shift', sans-serif;
 }
 
-img {
+
+img        {        display: block;
+                    margin-right: auto;
+                    margin-left: auto;
+                    width: 30vw;
+}
+    
+images {
 	                display: block;
-	                margin: 0 auto;
+	                margin-right: auto;
+	                margin-left: auto;
 	                width: 30vw;
 }
 	   
@@ -72,17 +80,17 @@ img {
                     width: 25vw;
 }
 
-.NextButton {       width: 8vw;
-                    height: 7vh;
-                    margin-bottom: 15px;
-                    color: purple;
-}
-
 .PrevButton {
                     width: 9vw;
                     height: 7vh;
+                    margin-top: 15px;
+                    color: purple;
+}
+
+.NextButton {       width: 8vw;
+                    height: 7vh;
                     margin-left: 3vw;
-                    margin-bottom: 15px;
+                    margin-top: 15px;
                     color: purple;
 }
 
