@@ -51,11 +51,12 @@ img        {        display: block;
                     width: 30vw;
 }
     
-images {
+#image {
 	                display: block;
 	                margin-right: auto;
 	                margin-left: auto;
 	                width: 30vw;
+	                height: 30vw;
 }
 	   
 .TurnButton {
